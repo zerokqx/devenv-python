@@ -12,7 +12,7 @@ cd my-project
 ```sh
 direnv allow
 uv add <пакет>
-uv run python main.py
+uv run python src/main.py
 ```
 
 Окружение можно также запустить командой `devenv shell`. При входе зависимости синхронизируются автоматически.
